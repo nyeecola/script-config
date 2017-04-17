@@ -26,11 +26,11 @@ set cursorline
 set laststatus=2
 set backspace=indent,eol,start
 set ttyfast
-set pastetoggle=<F2>
+set pastetoggle=<C-J>
 set wildmenu
 
-noremap <C-F> <C-]>
-noremap g<C-F> g<C-]>
+noremap <C-G> <C-]>
+noremap g<C-G> g<C-]>
 noremap Y y$
 noremap <Up> <nop>
 noremap <Down> <nop>
